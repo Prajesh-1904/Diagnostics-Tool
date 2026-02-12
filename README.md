@@ -1,32 +1,17 @@
 esp32/
 ├── README.md
-├── common/
-│   ├── pins.h
-│   ├── config.h
-│   ├── utils.h
-│   └── utils.cpp
-│
-├── tests/
-│   ├── spi_test/
-│   │   └── spi_test.ino
-│   │
-│   ├── can_loopback/
-│   │   └── can_loopback.ino
-│   │
-│   └── power_test/
-│       └── power_test.ino
-│
-└── main/
-    ├── main.ino
-    ├── can_manager.h
-    ├── can_manager.cpp
-    ├── obd_parser.h
-    ├── obd_parser.cpp
-    ├── dtc_decoder.h
-    ├── dtc_decoder.cpp
-    ├── ble_manager.h
-    ├── ble_manager.cpp
-    └── README.md
+├──include
+|    ├──can_manager.h
+|    ├──dtc_decoder.h
+|    └──obd_parser.h
+|    ├──src
+|        ├──platform.ini
+|        └──main.cpp
+└──mockECU
+    ├──src
+        ├──platform.ini
+        └──main.cpp
+
 
 
 
